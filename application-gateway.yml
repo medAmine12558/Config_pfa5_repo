@@ -1,6 +1,6 @@
 spring:
   application:
-    name: 'GateWay'
+    name: 'gateway'
   cloud:
     discovery:
       enabled: true
