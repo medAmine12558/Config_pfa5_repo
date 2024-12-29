@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: 'GateWay'
+  cloud:
+    discovery:
+      enabled: true
+server:
+  port: 8090
+
+security:
+  jwt:
+    secret-key: "80f3e37ed19d0d472a89a0c38da812497ad893b13df78bc3256e6daa3aefa0c4"
+    expiration-time: 3600000  # 1h en millisecondes
+logging:
+  level:
+    org:
+      springframework=DEBUG:
